@@ -1,0 +1,12 @@
+body
+{
+    background-color: #36bf9c;
+}
+
+#image
+{
+    float: right;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}

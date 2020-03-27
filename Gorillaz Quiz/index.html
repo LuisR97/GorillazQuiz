@@ -1,0 +1,144 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Gorillaz Quiz">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" href="styles.css">
+        <title>GorillazQuiz</title>
+    </head>
+    <body>
+        <script src="index.js"></script>
+        <div>
+         <form action="" method="">
+            <h2>Answer the questions to figure out which Gorillaz member you're more alike</h2>
+            <div id="image">
+                <img id = "myImage" src="Gorillaz.png" alt="Gorillaz"
+                width="500"
+                height="500">
+            </div>
+            <p>Jamie says good morning to you, you-</p>
+            <input name="q1" type="radio" id="q1answer1" value="" onClick="incMurdoc()">
+            <label for="q1answer1">Tell him to sod off</label><br>
+            <input name="q1" type="radio" id="q1answer2" value="" onClick="incRusell()">
+            <label for="q1answer2">Offer him an apple</label><br>
+            <input name="q1" type="radio" id="q1answer3" value="" onClick="incNoodle()">
+            <label for="q1answer3">Wish him a good morning back</label><br>
+            <input name="q1" type="radio" id="q1answer4" value="" onClick="inc2D()">
+            <label for="q1answer4">Invite him to a jam session</label>
+            <br>
+            <p>What do you want for breakfast?</p>
+            <input name="q2" type="radio" id="q2answer1" value="" onClick="incNoodle()">
+            <label for="q2answer1">Crepes</label><br>
+            <input name="q2" type="radio" id="q2answer2" value="" onClick="incMurdoc()">
+            <label for="q2answer2">3 Day old sunny side eggs</label><br>  
+            <input name="q2" type="radio" id="q2answer3" value="" onClick="incRusell()">
+            <label for="q2answer3">Delux breakfast with a side of pancakes</label><br>
+            <input name="q2" type="radio" id="q2answer4" value="" onClick="inc2D()">
+            <label for="q2answer4">Peppermint tea</label>
+            <br>
+            <p>Shoes?</p>
+            <input name="q3" type="radio" id="q3answer1" value="" onClick="inc2D()">
+            <label for="q3answer1">Oxford</label><br>
+            <input name="q3" type="radio" id="q3answer2" value="" onClick="incRusell()">
+            <label for="q3answer2">Converse</label><br>
+            <input name="q3" type="radio" id="q3answer3"  value="" onClick="incMurdoc()">
+            <label for="q3answer3">Chelsea</label><br>
+            <input name="q3" type="radio" id="q3answer4"  value="" onClick="incNoodle()">
+            <label for="q3answer4">High heels</label>
+            <br>
+            <p>When you're not listening to the sick jams in the studio, what are you vibing to?</p>
+            <input name="q4" type="radio" id="q4answer1"  value="" onClick="incRusell()">
+            <label for="q4answer1">C.R.E.A.M by Wu Tang Clan</label><br>
+            <input name="q4" type="radio" id="q4answer2"  value="" onClick="incMurdoc()">
+            <label for="q4answer2">Smooth by Santana ft Rob Thomas </label><br>
+            <input name="q4" type="radio" id="q4answer3"  value="" onClick="incNoodle()">
+            <label for="q4answer3">Attention by Charlie Puth</label><br>
+            <input name="q4" type="radio" id="q4answer4"  value="" onClick="inc2D()">
+            <label for="q4answer4">My Heart Will Go On by Celine Dion</label>
+            <br>
+            <p>Hey there's an open bar, you want something?</p>
+            <input name="q5" type="radio" id="q5answer1" value="" onClick="inc2D()">
+            <label for="q5answer1">Apple juice please</label><br>
+            <input name="q5" type="radio" id="q5answer2" value="" onClick="incNoodle()">
+            <label for="q5answer2">Water, i'm driving</label><br>
+            <input name="q5" type="radio" id="q5answer3" value="" onClick="incRusell()">
+            <label for="q5answer3">Beer off the tap</label><br>
+            <input name="q5" type="radio" id="q5answer4" value="" onClick="incMurdoc()">
+            <label for="q5answer4">Jack Daniels with pickle juice and an onion slice</label>
+            <br>
+            <p>You need to write on last collab for the album, who're you calling?</p>
+            <input name="q6" type="radio" id="q6answer1" value="" onClick="inc2D()">
+            <label for="q6answer1">Oprah?</label><br>
+            <input name="q6" type="radio" id="q6answer2" value="" onClick="incRusell()">
+            <label for="q6answer2">Uncle Snoop</label><br>
+            <input name="q6" type="radio" id="q6answer3" value="" onClick="incNoodle()">
+            <label for="q6answer3">Skylar Grey</label><br>
+            <input name="q6" type="radio" id="q6answer4" value="" onClick="incMurdoc()">
+            <label for="q6answer4">Ozzy</label>
+            <br>
+            <p>You opened the door and see a creepy and unmaintained hallway-</p>
+            <input name="q7" type="radio" id="q7answer1" value="" onClick="incRusell()">
+            <label for="q7answer1">Go upstairs</label><br>
+            <input name="q7" type="radio" id="q7answer2" value="" onClick="incNoodle()">
+            <label for="q7answer2">Explore</label><br>
+            <input name="q7" type="radio" id="q7answer3" value="" onClick="inc2D()">
+            <label for="q7answer3">Look for food</label><br>
+            <input name="q7" type="radio" id="q7answer4" value="" onClick="incMurdoc()">
+            <label for="q7answer4">Find something to break</label>
+            <br>
+            <p>Planning a beach day, what do you wanna do?</p>
+            <input name="q8" type="radio" id="q8answer1" value="" onClick="incMurdoc()">
+            <label for="q8answer1">Find the hula girls</label><br>
+            <input name="q8" type="radio" id="q8answer2" value="" onClick="incNoodle()">
+            <label for="q8answer2">Get a tan</label><br>
+            <input name="q8" type="radio" id="q8answer3" value="" onClick="incRusell()">
+            <label for="q8answer3">Go for a cool swim</label><br>
+            <input name="q8" type="radio" id="q8answer4" value="" onClick="inc2D()">
+            <label for="q8answer4">Build a sand castle</label>
+            <br>
+            <p>The droid is back, what do we do?</p>
+            <input name="q9" type="radio" id="q9answer1" value="" onClick="incMurdoc()">
+            <label for="q9answer1">Hide in the closet until it's safe</label><br>
+            <input name="q9" type="radio" id="q9answer2" value="" onClick="inc2D()">
+            <label for="q9answer2">Talk to it</label><br>
+            <input name="q9" type="radio" id="q9answer3" value="" onClick="incRusell()">
+            <label for="q9answer3">Go to sleep</label><br>
+            <input name="q9" type="radio" id="q9answer4" value="" onClick="incNoodle()">
+            <label for="q9answer4">Get mad at Murdoc</label>
+            <br>
+            <p>You're asked to sing in front of your guest, what do you sing?</p>
+            <input name="q10" type="radio" id="q10answer1" value="" onClick="inc2D()">
+            <label for="q10answer1">Whatever's the latest song you wrote</label><br>
+            <input name="q10" type="radio" id="q10answer2" value="" onClick="incMurdoc()">
+            <label for="q10answer2">Recite Mein Kamf</label><br>
+            <input name="q10" type="radio" id="q10answer3" value="" onClick="incNoodle()">
+            <label for="q10answer3">Here Comes A Thought written by Rebecca Sugar</label><br>
+            <input name="q10" type="radio" id="q10answer4" value="" onClick="incRusell()">
+            <label for="q10answer4">Can't sing</label>
+            <br>           
+            <p>Hey that seagull just stole your icecream what are you going to do?</p>
+            <input name="q11" type="radio" id="q11answer1" value="" onClick="incMurdoc()">
+            <label for="q11answer1">Hit 2D for it</label><br>
+            <input name="q11" type="radio" id="q11answer2" value="" onClick="inc2D()">
+            <label for="q11answer2">Cry</label><br>
+            <input name="q11" type="radio" id="q11answer3" value="" onClick="incNoodle()">
+            <label for="q11answer3">Buy more ice cream</label><br>
+            <input name="q11" type="radio" id="q11answer4" value="" onClick="incRusell()">
+            <label for="q11answer4">Buy some elephant ears</label>
+            <br>
+            <p>That was a fantastic show! What are you gonna do when you get back to the bus?</p>
+            <input name="q12" type="radio" id="q12answer1" value="" onClick="incMurdoc()">
+            <label for="q12answer1">Throw up</label><br>
+            <input name="q12" type="radio" id="q12answer2" value="" onClick="incNoodle()">
+            <label for="q12answer2">Take a hot bath</label><br>
+            <input name="q12" type="radio" id="q12answer3" value="" onClick="incRusell()">
+            <label for="q12answer3">Take a nap</label><br>
+            <input name="q12" type="radio" id="q12answer4" value="" onClick="inc2D()">
+            <label for="q12answer4">Meet the fans</label><br>
+            <br>
+            <input type="submit" value="Submit">
+          </form>
+
+        </div>
+    </body>
+</html>
